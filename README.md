@@ -28,3 +28,9 @@ adder = Add()
 result_add = adder.add(10, 5)
 print(f"10 + 5 = {result_add}")
 ```
+
+For tests:
+
+```bash
+pytest tests/
+```

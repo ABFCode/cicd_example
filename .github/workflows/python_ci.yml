@@ -2,7 +2,9 @@ name: Python CI and Test
 
 on:
   push:
-    branches: ["main", "master"]
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
   workflow_dispatch:
 
 jobs:
